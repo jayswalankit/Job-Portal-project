@@ -1,24 +1,15 @@
-# Logs
-logs
-*.log
+# 1. Root-level ignores
+/node_modules
+/package-lock.json
+
+# 2. Nested Project-level ignores
+/Project/node_modules
+/Project/package-lock.json
+/Project/dist
+/Project/build
+/Project/out
+/Project/public/vite.svg
+
+# 3. Common System/Log files
+.env*
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
