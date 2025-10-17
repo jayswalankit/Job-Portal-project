@@ -8,7 +8,7 @@
 /Project/dist
 /Project/build
 /Project/out
-/Project/public/vite.svg
+
 
 # 3. Common System/Log files
 .env*
